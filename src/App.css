@@ -1,0 +1,22 @@
+table {
+  border: outset;
+  width: 100%;
+  
+
+}
+
+th{
+  text-align: left;
+  padding: 8px;
+  color: darkgoldenrod;
+
+
+
+}
+td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: floralwhite};
+
