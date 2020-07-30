@@ -30,16 +30,17 @@ function ProductTable({product}) {
            
             
              )
-             // eslint-disable-next-line
-             ProductTable.ProTotype={
-                optionalUnion: PropTypes.oneOfType([
-                    PropTypes.string,
-                    PropTypes.number,
-                    ]),
+             
+            
              }    
-            }
+           
 
 
 
  
  export default ProductTable
+ ProductTable.ProTotype={
+  optionalUnion: PropTypes.oneOfType([
+      PropTypes.string,
+      PropTypes.number,
+      ]),}
