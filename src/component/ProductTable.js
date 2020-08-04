@@ -24,23 +24,11 @@ function ProductTable({product}) {
             
              </table>
               </div>
-         
-            
-            
-           
-            
-             )
-             
-            
-             }    
+          )
+          
+       }    
            
 
-
-
- 
+       ProductTable.ProTotype={    
+       optionalArrayOf: PropTypes.arrayOf(PropTypes.string,PropTypes.string,PropTypes.number)}
  export default ProductTable
- ProductTable.ProTotype={
-  optionalUnion: PropTypes.oneOfType([
-      PropTypes.string,
-      PropTypes.number,
-      ]),}
